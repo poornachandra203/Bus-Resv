@@ -1,18 +1,9 @@
-## Getting Started
+# Bus Reservation Application
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple project of a real time bus reservation system using JDBC using JAR
 
-## Folder Structure
+## Insert JAR
 
-The workspace contains two folders by default, where:
+Download the jar file as platform independent as zip file and extract the file and insert the file to the project 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Right click the src → go to build path → click Configure Build Path → in that pop box select the libraries → click the classpath → left side select the add external JARs → add the extracted JAR file to the project
